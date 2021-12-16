@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "MonumentExtended Regular";
+    font-style: normal;
+    font-weight: 100 900;
+    /* font-display: swap; */
+    src: url("/fonts/MonumentExtended-Regular.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "MonumentExtended Ultrabold";
+    font-style: normal;
+    font-weight: 100 900;
+    font-size: 100%;
+    /* font-display: swap; */
+    src: url("/fonts/MonumentExtended-Ultrabold.woff2") format("woff2");
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  body {
+    font-family: "MonumentExtended Ultrabold";
+    text-transform: uppercase;
+  }
+
+  p,
+  ul,
+  li {
+    font-family: "MonumentExtended Regular";
+    text-transform: uppercase;
+  }
+  @media only screen and (max-width: 500px) {
+    html {
+      font-size: 70.5%;
+    }
+  }
+}
+
+@layer components {
+  .heading2 {
+    @apply text-xl text-textColor font-bold underline;
+  }
+  .heading3 {
+    @apply text-black font-bold;
+  }
+  .para {
+    @apply text-black text-lg text-justify;
+  }
+}
