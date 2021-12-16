@@ -19,7 +19,13 @@ export const About = (props: Props) => {
         ></Heading>
       }
     >
-      <div className="flex flex-wrap justify-center sticky top-0">
+      <motion.div
+        initial={{ x: "100%", opacity: 0 }}
+        whileInView={{ x: "0%", opacity: 1 }}
+        transition={{ type: "just" }}
+        viewport={{ once: true }}
+        className="flex flex-wrap justify-center sticky top-0"
+      >
         <div className="mx-auto ">
           <Meditate />
         </div>
@@ -35,7 +41,7 @@ export const About = (props: Props) => {
             brainstorm new ideas and contributing Social projects.
           </motion.p>
         </div>
-      </div>
+      </motion.div>
     </BasePage>
   );
 };
