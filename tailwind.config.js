@@ -24,6 +24,38 @@ module.exports = {
       dark: "#101124",
     },
     extend: {
+      keyframes: {
+        bounce: {
+          "0%, 100%": {
+            transform: "translateY(-5%)",
+            "animation-timing-function": " cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": { transform: "rotate(1deg)" },
+        },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-1deg)" },
+          "50%": { transform: "rotate(1deg)" },
+        },
+        ghost: {
+          "0%, 100%": { transform: "rotate(-1deg)" },
+          "50%": { transform: "rotate(1deg)" },
+        },
+        meditate: {
+          "0%, 100%": {
+            transform: "translateY(-2%) rotate(1deg)",
+            "animation-timing-function": " cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "30%": { transform: "translateY(-4%) rotate(2deg)" },
+          "80%": { transform: "translateY(-1%) rotate(2deg)" },
+        },
+      },
+      animation: {
+        ghost: "ghost 1s ease-in-out infinite",
+        pulse: "pulse 3s ease-in-out infinite",
+        meditate: "meditate 3s linear infinite",
+        wiggle: "wiggle 1s ease-in-out infinite",
+      },
+
       maxWidth: {
         "8xl": "90rem",
       },

@@ -6,13 +6,16 @@ interface basePageProps {
   className?: any;
   // img?: string;
   // imgStyle?: string;
+  background?: "bg-light" | "bg-dark";
   styles?: any;
 }
 
 const BasePage = (props: basePageProps) => {
-  const { children, styles, className = "" } = props;
+  const { children, styles, className, background } = props;
   return (
-    <div className={`base-page relative h-full ${className} bg-light`}>
+    <div
+      className={`base-page relative w-full h-full ${className} ${background}`}
+    >
       {styles}
       <div className="max-w-8xl m-auto px-5 relative">{children}</div>
     </div>
