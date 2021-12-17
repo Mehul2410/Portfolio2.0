@@ -23,7 +23,7 @@ export const About = (props: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="flex flex-wrap justify-center sticky top-0"
+        className="flex flex-wrap justify-center mt-5"
       >
         <div className="mx-auto ">
           <Meditate />
