@@ -20,9 +20,8 @@ export const About = (props: Props) => {
       }
     >
       <motion.div
-        initial={{ x: "100%", opacity: 0 }}
-        whileInView={{ x: "0%", opacity: 1 }}
-        transition={{ type: "just" }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         className="flex flex-wrap justify-center sticky top-0"
       >
