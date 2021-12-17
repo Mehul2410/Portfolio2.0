@@ -7,7 +7,7 @@ interface Props {}
 
 export const HeroSection = (props: Props) => {
   return (
-    <BasePage className="mt-5">
+    <BasePage className="pt-5">
       <div className="pt-20 flex items-end flex-wrap-reverse justify-center ">
         <Image
           src="/img/mehul.png"
