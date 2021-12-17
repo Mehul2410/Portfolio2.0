@@ -9,13 +9,7 @@ export const Education = (props: Props) => {
   return (
     <BasePage
       className="py-16"
-      styles={
-        <Heading
-          className="2xl:static top-20 sticky"
-          text="Education"
-          color="#EEEEEE"
-        ></Heading>
-      }
+      styles={<Heading text="Education" color="#EEEEEE"></Heading>}
     >
       <div className="bg-dark w-full h-44 rounded-3xl my-6">
         <Scroller />

@@ -34,21 +34,19 @@
     font-family: "MonumentExtended Regular";
     text-transform: uppercase;
   }
+
   @media only screen and (max-width: 500px) {
     html {
-      font-size: 70.5%;
+      font-size: 60.5%;
     }
   }
 }
 
 @layer components {
-  .heading2 {
-    @apply text-xl text-textColor font-bold underline;
+  .para-light {
+    @apply text-light text-2xl;
   }
-  .heading3 {
-    @apply text-black font-bold;
-  }
-  .para {
-    @apply text-black text-lg text-justify;
+  .para-dark {
+    @apply text-dark text-2xl;
   }
 }

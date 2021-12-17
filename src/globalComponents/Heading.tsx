@@ -4,6 +4,7 @@ type TextProps = {
   color?: "#EEEEEE" | "#101124";
   text: string;
   children?: ReactNode;
+  textSize?: string;
   className?: any;
 };
 
@@ -12,6 +13,7 @@ export const Heading = ({
   className,
   text,
   color,
+  textSize,
   ...props
 }: TextProps) => {
   return (
@@ -22,7 +24,9 @@ export const Heading = ({
         WebkitTextStrokeWidth: "1px",
         WebkitTextStrokeColor: color === "#101124" ? "#EEEEEE" : "#101124",
       }}
-      className={`text-7xl z-10 absolute max-w-max ${className}`}
+      className={`${
+        textSize ? textSize : " text-7xl"
+      } z-10 max-w-max ${className}`}
     >
       {text}
       {children}

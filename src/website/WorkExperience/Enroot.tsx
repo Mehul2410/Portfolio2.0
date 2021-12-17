@@ -5,7 +5,7 @@ interface Props {}
 
 export const Enroot = (props: Props) => {
   return (
-    <div className="flex">
+    <div className="flex m-auto">
       <Image
         className="animate-bounce"
         src="/img/enroot.png"
@@ -15,7 +15,7 @@ export const Enroot = (props: Props) => {
         alt="Enroot Mumbai"
       />
       <svg
-        className="m-4"
+        className="m-4 max-w-md w-full"
         width="308"
         height="111"
         viewBox="0 0 308 111"

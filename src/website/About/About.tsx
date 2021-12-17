@@ -34,7 +34,7 @@ export const About = (props: Props) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="text-light text-xl"
+            className="para-light"
           >
             I Create Neat an Interactive Websites. I am Currently pursuing a
             bachelor's degree in the 4th year of IT engineering. I like to
