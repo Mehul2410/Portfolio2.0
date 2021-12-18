@@ -11,6 +11,7 @@ export const About = (props: Props) => {
     <BasePage
       background="bg-dark"
       className="py-24"
+      id="about"
       styles={
         <Heading
           className="2xl:static top-20 sticky"

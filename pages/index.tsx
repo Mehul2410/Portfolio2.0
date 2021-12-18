@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <BaseLayout>
         <HeroSection />
         <About />
-        <Education />
+        {/* <Education /> */}
         <WorkExperience />
         <Internship />
         <Skills />

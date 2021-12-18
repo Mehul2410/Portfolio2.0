@@ -14,17 +14,12 @@ function Nav({}: Props): ReactElement {
     {
       id: 1,
       page: "About",
-      route: "/about",
+      route: "#about",
     },
     {
       id: 2,
       page: "Contact",
-      route: "/contact",
-    },
-    {
-      id: 3,
-      page: "Join Us",
-      route: "/joinUs",
+      route: "#contact",
     },
   ];
 
