@@ -23,6 +23,7 @@ export const About = (props: Props) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
+        transition={{ delay: 0.3 }}
         className="flex flex-wrap justify-center mt-5"
       >
         <div className="mx-auto ">
@@ -33,6 +34,7 @@ export const About = (props: Props) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
             className="para-light"
           >
             I Create Neat an Interactive Websites. I am Currently pursuing a

@@ -51,11 +51,11 @@ export const Internship = (props: Props) => {
         <div className="bg-dark max-w-2xl w-full  m-auto rounded-3xl overflow-hidden p-10 space-y-4">
           {IntershipData.map((item) => {
             return (
-              <div className="border-b border-light flex flex-wrap pb-4 space-y-2">
-                <div
-                  className="text-light max-w-sm space-y-4 w-full"
-                  key={item.id}
-                >
+              <div
+                className="border-b border-light flex flex-wrap pb-4 space-y-2"
+                key={item.id}
+              >
+                <div className="text-light max-w-sm space-y-4 w-full">
                   <p>{item.name}</p>
                   <p>{item.time}</p>
                   <p>Role : {item.type}</p>
