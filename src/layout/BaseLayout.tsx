@@ -22,6 +22,7 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
           property="og:url"
           content={`https://mehulgawhale.me/${router.asPath}`}
         />
+        <link rel="manifest" href="./manifest.json" />
         <link
           rel="canonical"
           href={`https://mehulgawhale.me/${router.asPath}`}
@@ -60,9 +61,6 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
           content="I Create Neat an Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
         />
         <meta name="twitter:image" content="/favicon/MG.png" />
-        {/* {meta.date && (
-          <meta property="article:published_time" content={meta.date} />
-        )} */}
       </Head>
       <Nav />
       {children}
