@@ -13,6 +13,20 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
     <>
       <Head>
         <title>Mehul Gawhale - Portfolio</title>
+        <meta name="title" content="Mehul Gawhale - Portfolio" />
+        <meta
+          name="description"
+          content="I CREATE NEAT AND INTERACTIVE WEBSITES. I LIKE TO BRAINSTORM NEW IDEAS AND CONTRIBUTING SOCIAL PROJECTS."
+        />
+        <meta
+          name="keywords"
+          content="Mehul Gawhale,Portfolio,Web developer,Designer,UI/UX,Reactjs,Nextjs,Interactive design,Web Animation,SEO,Work Experience,Internship,Skills,About,Contact,Github,Linkedin"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
+        <meta name="author" content="Mehul Gawhale" />
+
         <meta name="robots" content="follow, index" />
         <meta
           content="I Create Neat an Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
