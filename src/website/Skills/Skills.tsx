@@ -87,6 +87,7 @@ export const Skills = (props: Props) => {
                   height={60}
                   src={item.image}
                   alt={item.name}
+                  objectFit="contain"
                 />
               </div>
               <div className="m-auto">
