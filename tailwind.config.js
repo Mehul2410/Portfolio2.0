@@ -22,6 +22,7 @@ module.exports = {
     colors: {
       light: "#EEEEEE",
       dark: "#101124",
+      bg: "#3B3D60",
     },
     extend: {
       keyframes: {
