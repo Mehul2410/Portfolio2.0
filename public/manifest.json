@@ -1,0 +1,23 @@
+{
+  "name": "Mehul Gawhale - Portfolio",
+  "short_name": "Mehul",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#101124",
+  "background_color": "#101124",
+  "icons": [
+    {
+      "src": "./favicon/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./favicon/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
