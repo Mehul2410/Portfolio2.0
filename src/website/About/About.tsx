@@ -38,7 +38,7 @@ export const About = (props: Props) => {
             transition={{ delay: 0.1 }}
             className="para-light"
           >
-            I Create Neat an Interactive Websites. I am Currently pursuing a
+            I Create Neat and Interactive Websites. I am Currently pursuing a
             bachelor's degree in the 4th year of IT engineering. I like to
             brainstorm new ideas and contributing Social projects.
           </motion.p>
