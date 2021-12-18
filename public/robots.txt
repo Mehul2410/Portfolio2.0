@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://mehulgawhale.me/api/sitemap
+Sitemap: http://www.mehulgawhale.me/api/sitemap
