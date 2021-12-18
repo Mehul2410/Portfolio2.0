@@ -8,7 +8,7 @@ export const Footer = (props: Props) => {
   return (
     <BasePage id="contact">
       <footer className="pt-14 pb-4 bg-light flex flex-col space-y-10">
-        <div className="flex w-full">
+        <div className="flex w-full flex-wrap">
           <a
             href="https://twitter.com/GawhaleMehul"
             target="_blank"
@@ -46,7 +46,7 @@ export const Footer = (props: Props) => {
             Instagram
           </a>
         </div>
-        <div className="flex">
+        <div className="flex flex-wrap">
           <a
             href="mailto:mehulgawhale123@gmail.com"
             className="m-auto"
@@ -54,7 +54,7 @@ export const Footer = (props: Props) => {
           >
             mehulgawhale123@gmail.com
           </a>
-          <div className="flex flex-col m-auto">
+          <div className="flex flex-col m-auto text-center">
             Monument Extended by
             <a
               href="https://pangrampangram.com/"
@@ -67,7 +67,9 @@ export const Footer = (props: Props) => {
           </div>
         </div>
 
-        <h1 className="text-9xl text-center ">GET IN TOUCH</h1>
+        <h1 className="text-9xl text-center xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl um:text-4xl">
+          GET IN TOUCH
+        </h1>
       </footer>
     </BasePage>
   );

@@ -30,7 +30,7 @@ function Nav({}: Props): ReactElement {
         <div className="max-w-7xl m-auto flex items-center justify-between ">
           <h2 className="text-3xl text-dark font-extrabold">
             <Link href="/">
-              <a>MG</a>
+              <h2>MG</h2>
             </Link>
           </h2>
           <ul className="flex space-x-8 text-lg md:hidden text-dark">

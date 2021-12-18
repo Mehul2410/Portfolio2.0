@@ -11,7 +11,7 @@ export const HeroSection = (props: Props) => {
       <div className="pt-20 flex items-end flex-wrap-reverse justify-center ">
         <Image
           src="/img/mehul.png"
-          alt="Picture of the author"
+          alt="Picture of Mehul Gawhale"
           width={800}
           height={800}
           objectFit="cover"

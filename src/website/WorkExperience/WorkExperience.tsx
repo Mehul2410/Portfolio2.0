@@ -59,18 +59,14 @@ export const WorkExperience = (props: Props) => {
               <div className=" m-auto">
                 <Image
                   src={item.src}
+                  alt={item.name}
                   width={550}
                   height={300}
                   objectFit="cover"
                 />
               </div>
               <div className="self-center max-w-xl m-auto  w-full">
-                <Heading
-                  className=""
-                  textSize="text-5xl"
-                  color="#101124"
-                  text={item.name}
-                />
+                <Heading textSize="text-5xl" color="#101124" text={item.name} />
               </div>
             </div>
           );
