@@ -33,11 +33,11 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
         />
         <meta
           property="og:url"
-          content={`https://mehulgawhale.me/${router.asPath}`}
+          content={`https://mehulgawhale.me${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://mehulgawhale.me/${router.asPath}`}
+          href={`https://mehulgawhale.me${router.asPath}`}
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Mehul Gawhale" />
