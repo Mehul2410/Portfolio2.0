@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { images } from "./image-data";
+import Image from "next/image";
 
 const variants = {
   enter: (direction: number) => {
@@ -32,6 +33,21 @@ const swipePower = (offset: number, velocity: number) => {
 
 export const Scroller = () => {
   const [[page, direction], setPage] = useState([0, 0]);
+  const styles: any = {
+    top: "calc(50% - 20px)",
+    position: "absolute",
+    borderRadius: "30px",
+    width: "40px",
+    height: "40px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    userSelect: "none",
+    cursor: "pointer",
+    fontWeight: "bold",
+    fontSize: "18px",
+    zIndex: 2,
+  };
 
   // We only have 3 images, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and
   // then wrap that within 0-2 to find our image ID in the array below. By passing an
@@ -48,7 +64,7 @@ export const Scroller = () => {
       <AnimatePresence initial={false} custom={direction}>
         <motion.div
           key={page}
-          className="text-light"
+          className="w-full absolute justify-center items-center flex flex-col h-full text-light  space-y-4 text-center"
           custom={direction}
           variants={variants}
           initial="enter"
@@ -71,14 +87,29 @@ export const Scroller = () => {
             }
           }}
         >
-          Hello
+          <img
+            alt={images[imageIndex].name}
+            src={images[imageIndex].img}
+            className="object-contain max-w-uum w-full h-auto"
+          />
+          <p>{images[imageIndex].name}</p>
+          <p>{images[imageIndex].year}</p>
+          <p>{images[imageIndex].marks}</p>
         </motion.div>
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)}>
-        {"‣"}
+      <div
+        className="right-3 text-2xl text-light "
+        style={styles}
+        onClick={() => paginate(1)}
+      >
+        {">"}
       </div>
-      <div className="prev" onClick={() => paginate(-1)}>
-        {"‣"}
+      <div
+        className="left-3 text-2xl text-light"
+        style={styles}
+        onClick={() => paginate(-1)}
+      >
+        {"<"}
       </div>
     </>
   );

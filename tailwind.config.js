@@ -56,9 +56,12 @@ module.exports = {
         meditate: "meditate 3s linear infinite",
         wiggle: "wiggle 1s ease-in-out infinite",
       },
-
+      minHeight: {
+        edu: "30rem",
+      },
       maxWidth: {
         "8xl": "90rem",
+        uum: "15rem",
       },
     },
   },
