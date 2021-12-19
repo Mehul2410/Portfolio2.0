@@ -55,6 +55,7 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
           content="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
         />
         <meta name="twitter:image" content="/favicon/MG.png" />
+        <link rel="preload" as="image" href="/img/mehul.png" />
       </Head>
       <Nav />
       {children}

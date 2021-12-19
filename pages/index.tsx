@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import BaseLayout from "../src/layout/BaseLayout";
 import { About } from "../src/website/About/About";
 import { Education } from "../src/website/Education/Education";

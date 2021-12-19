@@ -8,13 +8,11 @@ interface Props {}
 export const HeroSection = (props: Props) => {
   return (
     <BasePage className="pt-5">
-      <div className="pt-20 flex items-end flex-wrap-reverse justify-center ">
-        <Image
+      <div className="pt-10 flex items-end flex-wrap-reverse justify-center ">
+        <img
+          className="max-w-2xl h-full w-full xl:max-w-lg"
           src="/img/mehul.png"
           alt="Picture of Mehul Gawhale"
-          width={800}
-          height={800}
-          objectFit="cover"
         />
 
         <div className="flex flex-col text-5xl max-w-lg py-5 m-auto">
