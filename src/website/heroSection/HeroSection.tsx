@@ -18,8 +18,8 @@ export const HeroSection = (props: Props) => {
         />
 
         <div className="flex flex-col text-5xl max-w-lg py-5 m-auto">
-          <h2 className="">Hi There,</h2>
-          <h2>I’m Mehul Gawhale a UI/UX Designer & Developer.</h2>
+          <h2>Hi There,</h2>
+          <h1>I’m Mehul Gawhale a UI/UX Designer & Developer.</h1>
 
           <div className="relative h-full self-end xl:hidden">
             <Ghost />

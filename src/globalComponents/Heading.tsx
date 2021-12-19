@@ -17,7 +17,7 @@ export const Heading = ({
   ...props
 }: TextProps) => {
   return (
-    <h1
+    <h2
       style={{
         color: color ? color : "#101124",
         textTransform: "uppercase",
@@ -30,6 +30,6 @@ export const Heading = ({
     >
       {text}
       {children}
-    </h1>
+    </h2>
   );
 };
