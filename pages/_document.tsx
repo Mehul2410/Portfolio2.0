@@ -1,18 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from "next/script";
 import * as gtag from "../lib/gtag";
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="en-IN">
         <Head>
-          <Script
-            strategy="afterInteractive"
+          <script
+            async
             src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
           />
-          <Script
+          <script
             id="gtag-init"
-            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
