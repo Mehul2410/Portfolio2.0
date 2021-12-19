@@ -7,7 +7,7 @@ interface Props {}
 export const Footer = (props: Props) => {
   return (
     <BasePage id="contact">
-      <footer className="pt-14 pb-4 bg-light flex flex-col space-y-10">
+      <footer className="pt-14 pb-4 bg-light flex flex-col space-y-20">
         <div className="flex w-full flex-wrap">
           <a
             href="https://twitter.com/GawhaleMehul"
