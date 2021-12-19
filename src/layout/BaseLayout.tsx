@@ -16,7 +16,7 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
         <meta name="title" content="Mehul Gawhale - Portfolio" />
         <meta
           name="description"
-          content="I CREATE NEAT AND INTERACTIVE WEBSITES. I LIKE TO BRAINSTORM NEW IDEAS AND CONTRIBUTING SOCIAL PROJECTS."
+          content="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
         />
         <meta
           name="keywords"
@@ -26,44 +26,24 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="author" content="Mehul Gawhale" />
-
         <meta name="robots" content="follow, index" />
         <meta
-          content="I Create Neat an Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
+          content="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
           name="description"
         />
         <meta
           property="og:url"
           content={`https://mehulgawhale.me/${router.asPath}`}
         />
-        <link rel="manifest" href="./manifest.json" />
         <link
           rel="canonical"
           href={`https://mehulgawhale.me/${router.asPath}`}
-        />
-        <link rel="shortcut icon" href="/favicon/favicon.png" />
-        <link
-          rel="apple-touch-icon"
-          sizes="192x192"
-          href="/favicon/192x192.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/16x16.png"
         />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Mehul Gawhale" />
         <meta
           property="og:description"
-          content="I Create Neat an Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
+          content="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
         />
         <meta property="og:title" content="Mehul Gawhale - Portfolio" />
         <meta property="og:image" content="/favicon/MG.png" />
@@ -72,7 +52,7 @@ const BaseLayout = ({ children }: baseLayoutProps) => {
         <meta name="twitter:title" content="Mehul Gawhale - Portfolio" />
         <meta
           name="twitter:description"
-          content="I Create Neat an Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
+          content="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
         />
         <meta name="twitter:image" content="/favicon/MG.png" />
       </Head>
