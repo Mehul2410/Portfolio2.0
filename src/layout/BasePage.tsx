@@ -19,7 +19,7 @@ const BasePage = (props: basePageProps) => {
       id={id}
     >
       {styles}
-      <div className="max-w-8xl m-auto px-5 relative"> {children}</div>
+      <div className="max-w-8xl m-auto px-5 relative">{children}</div>
     </div>
   );
 };
