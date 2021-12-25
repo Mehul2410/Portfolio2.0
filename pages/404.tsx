@@ -576,8 +576,8 @@ export default function Custom404() {
             y2="383.591"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_186_427"
@@ -587,8 +587,8 @@ export default function Custom404() {
             y2="-22978.7"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint2_linear_186_427"
@@ -598,8 +598,8 @@ export default function Custom404() {
             y2="575.506"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint3_linear_186_427"
@@ -609,8 +609,8 @@ export default function Custom404() {
             y2="53586.9"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint4_linear_186_427"
@@ -620,8 +620,8 @@ export default function Custom404() {
             y2="562.273"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#9E79FC" />
-            <stop offset="1" stop-color="#9D47FF" />
+            <stop stopColor="#9E79FC" />
+            <stop offset="1" stopColor="#9D47FF" />
           </linearGradient>
           <linearGradient
             id="paint5_linear_186_427"
@@ -631,8 +631,8 @@ export default function Custom404() {
             y2="69969.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint6_linear_186_427"
@@ -642,8 +642,8 @@ export default function Custom404() {
             y2="76465.2"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint7_linear_186_427"
@@ -653,8 +653,8 @@ export default function Custom404() {
             y2="555712"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#9E79FC" />
-            <stop offset="1" stop-color="#9D47FF" />
+            <stop stopColor="#9E79FC" />
+            <stop offset="1" stopColor="#9D47FF" />
           </linearGradient>
           <linearGradient
             id="paint8_linear_186_427"
@@ -664,8 +664,8 @@ export default function Custom404() {
             y2="-27828.3"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint9_linear_186_427"
@@ -675,8 +675,8 @@ export default function Custom404() {
             y2="-104218"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint10_linear_186_427"
@@ -686,8 +686,8 @@ export default function Custom404() {
             y2="-111632"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint11_linear_186_427"
@@ -697,8 +697,8 @@ export default function Custom404() {
             y2="382128"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint12_linear_186_427"
@@ -708,8 +708,8 @@ export default function Custom404() {
             y2="30247.6"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint13_linear_186_427"
@@ -719,8 +719,8 @@ export default function Custom404() {
             y2="14504.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint14_linear_186_427"
@@ -730,8 +730,8 @@ export default function Custom404() {
             y2="46792.6"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint15_linear_186_427"
@@ -741,8 +741,8 @@ export default function Custom404() {
             y2="14483"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint16_linear_186_427"
@@ -752,8 +752,8 @@ export default function Custom404() {
             y2="229532"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint17_linear_186_427"
@@ -763,8 +763,8 @@ export default function Custom404() {
             y2="169994"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint18_linear_186_427"
@@ -774,8 +774,8 @@ export default function Custom404() {
             y2="77198.8"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint19_linear_186_427"
@@ -785,8 +785,8 @@ export default function Custom404() {
             y2="407.194"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint20_linear_186_427"
@@ -796,8 +796,8 @@ export default function Custom404() {
             y2="10259"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint21_linear_186_427"
@@ -807,8 +807,8 @@ export default function Custom404() {
             y2="10356.1"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint22_linear_186_427"
@@ -818,8 +818,8 @@ export default function Custom404() {
             y2="-203844"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint23_linear_186_427"
@@ -829,8 +829,8 @@ export default function Custom404() {
             y2="-103535"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint24_linear_186_427"
@@ -840,8 +840,8 @@ export default function Custom404() {
             y2="48831.6"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint25_linear_186_427"
@@ -851,8 +851,8 @@ export default function Custom404() {
             y2="54424.3"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint26_linear_186_427"
@@ -862,8 +862,8 @@ export default function Custom404() {
             y2="552.551"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint27_linear_186_427"
@@ -873,8 +873,8 @@ export default function Custom404() {
             y2="7065.49"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint28_linear_186_427"
@@ -884,8 +884,8 @@ export default function Custom404() {
             y2="13548.1"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint29_linear_186_427"
@@ -895,8 +895,8 @@ export default function Custom404() {
             y2="61641.7"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint30_linear_186_427"
@@ -906,8 +906,8 @@ export default function Custom404() {
             y2="54506.8"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint31_linear_186_427"
@@ -917,8 +917,8 @@ export default function Custom404() {
             y2="6988.72"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint32_linear_186_427"
@@ -928,8 +928,8 @@ export default function Custom404() {
             y2="7021.48"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint33_linear_186_427"
@@ -939,8 +939,8 @@ export default function Custom404() {
             y2="13788.7"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#473068" />
-            <stop offset="1" stop-color="#000028" />
+            <stop stopColor="#473068" />
+            <stop offset="1" stopColor="#000028" />
           </linearGradient>
           <linearGradient
             id="paint34_linear_186_427"
@@ -950,8 +950,8 @@ export default function Custom404() {
             y2="473335"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint35_linear_186_427"
@@ -961,8 +961,8 @@ export default function Custom404() {
             y2="472250"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint36_linear_186_427"
@@ -972,8 +972,8 @@ export default function Custom404() {
             y2="342060"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint37_linear_186_427"
@@ -983,8 +983,8 @@ export default function Custom404() {
             y2="-126340"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint38_linear_186_427"
@@ -994,8 +994,8 @@ export default function Custom404() {
             y2="152579"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint39_linear_186_427"
@@ -1005,8 +1005,8 @@ export default function Custom404() {
             y2="23820.8"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint40_linear_186_427"
@@ -1016,8 +1016,8 @@ export default function Custom404() {
             y2="29625.1"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint41_linear_186_427"
@@ -1027,8 +1027,8 @@ export default function Custom404() {
             y2="13624.1"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint42_linear_186_427"
@@ -1038,8 +1038,8 @@ export default function Custom404() {
             y2="45939"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint43_linear_186_427"
@@ -1049,8 +1049,8 @@ export default function Custom404() {
             y2="12912.5"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint44_linear_186_427"
@@ -1060,8 +1060,8 @@ export default function Custom404() {
             y2="33486.3"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint45_linear_186_427"
@@ -1071,8 +1071,8 @@ export default function Custom404() {
             y2="182624"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#0276B3" />
-            <stop offset="1" stop-color="#026AA7" />
+            <stop stopColor="#0276B3" />
+            <stop offset="1" stopColor="#026AA7" />
           </linearGradient>
           <linearGradient
             id="paint46_linear_186_427"
@@ -1082,8 +1082,8 @@ export default function Custom404() {
             y2="-92212.9"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FBBB8F" />
-            <stop offset="1" stop-color="#FF873E" />
+            <stop stopColor="#FBBB8F" />
+            <stop offset="1" stopColor="#FF873E" />
           </linearGradient>
           <linearGradient
             id="paint47_linear_186_427"
@@ -1093,8 +1093,8 @@ export default function Custom404() {
             y2="-251397"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <linearGradient
             id="paint48_linear_186_427"
@@ -1104,8 +1104,8 @@ export default function Custom404() {
             y2="-29660.6"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#FF816A" />
-            <stop offset="1" stop-color="#FE4C6A" />
+            <stop stopColor="#FF816A" />
+            <stop offset="1" stopColor="#FE4C6A" />
           </linearGradient>
           <image
             id="image0_186_427"
