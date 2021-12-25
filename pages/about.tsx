@@ -12,7 +12,7 @@ const Home: NextPage = () => {
             <div className="m-auto my-0 sticky top-32 xl:relative xl:top-0 xl:mb-10">
               <img
                 src="/img/mehul.jpg"
-                alt="mehul gawhale's image"
+                alt="Mehul gawhale"
                 className="rounded-photo max-w-xl w-full object-cover sticky top-20"
               />
             </div>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                   I am all ears. I will try to help in every way possible.
                 </p>
               </div>
-              <div className="max-w-2xl  text-light space-y-8">
+              <div className="max-w-2xl text-light space-y-8">
                 <h1 className="text-4xl">My Goals</h1>
                 <h2 className="text-2xl decoration-slice underline-offset-4 underline">
                   CONTRIBUTING SOCIAL PROJECTS. and DO THINGS THAT MAKE ME A
