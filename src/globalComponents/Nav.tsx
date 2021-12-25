@@ -29,7 +29,12 @@ function Nav({}: Props): ReactElement {
       <div className="w-full bg-light py-6 px-5 sticky top-0 left-0 z-20 shadow-md">
         <div className="max-w-7xl m-auto flex items-center justify-between ">
           <Link href="/">
-            <h2 className="text-3xl text-dark font-extrabold">MG</h2>
+            <span
+              style={{ fontFamily: "MonumentExtended Ultrabold" }}
+              className="text-3xl text-dark font-extrabold"
+            >
+              MG
+            </span>
           </Link>
 
           <ul className="flex space-x-8 text-lg md:hidden text-dark">
