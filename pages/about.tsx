@@ -3,7 +3,7 @@ import Link from "next/link";
 import BaseLayout from "../src/layout/BaseLayout";
 import BasePage from "../src/layout/BasePage";
 import { Scroller } from "../src/website/Education/Scroller";
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <BaseLayout>
       <BasePage background="bg-dark" className="py-20">
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
               </h2>
               <p className="text-xl">
                 Currently pursuing a bachelor's degree in the 4th year of IT
-                engineering
+                engineering.
               </p>
               <p className="text-xl">I like to brainstorm new ideas!</p>
               <p className="text-xl">
@@ -74,4 +74,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default About;

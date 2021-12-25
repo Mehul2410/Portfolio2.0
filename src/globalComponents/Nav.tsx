@@ -18,6 +18,11 @@ function Nav({}: Props): ReactElement {
     },
     {
       id: 2,
+      page: "Projects",
+      route: "/projects",
+    },
+    {
+      id: 4,
       page: "Contact",
       route: "#contact",
     },

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { Heading } from "../../globalComponents/Heading";
 import BasePage from "../../layout/BasePage";
@@ -10,16 +11,19 @@ export const WorkExperience = (props: Props) => {
   const EnrootsProject = [
     {
       id: 0,
+      url: "https://www.iamtrans.in/",
       name: "01 IamTrans",
       src: "/img/iamtrans.png",
     },
     {
       id: 1,
+      url: "https://www.isewa.org.in/",
       name: "02 ISewa",
       src: "/img/isewa.png",
     },
     {
       id: 2,
+      url: "https://www.letindiabreathe.in/",
       name: "03 Let india breathe",
       src: "/img/lib.png",
     },
@@ -56,14 +60,18 @@ export const WorkExperience = (props: Props) => {
         {EnrootsProject.map((item) => {
           return (
             <div className="flex flex-wrap-reverse w-full" key={item.id}>
-              <div className=" m-auto">
-                <Image
-                  src={item.src}
-                  alt={item.name}
-                  width={550}
-                  height={300}
-                  objectFit="cover"
-                />
+              <div className="m-auto">
+                <Link href={item.url}>
+                  <a>
+                    <Image
+                      src={item.src}
+                      alt={item.name}
+                      width={550}
+                      height={300}
+                      objectFit="cover"
+                    />
+                  </a>
+                </Link>
               </div>
               <div className="self-center max-w-xl m-auto  w-full">
                 <Heading textSize="text-5xl" color="#101124" text={item.name} />
@@ -71,9 +79,11 @@ export const WorkExperience = (props: Props) => {
             </div>
           );
         })}
-        <button className="w-max self-center text-2xl bg-dark hover:bg-opacity-20 hover:bg-light text-light px-10 py-5 border-2 border-light hover:shadow-light hover:shadow-sm">
-          View All
-        </button>
+        <Link href="/projects">
+          <a className="w-max self-center text-2xl bg-dark hover:bg-opacity-20 hover:bg-light text-light px-10 py-5 border-2 border-light hover:shadow-light hover:shadow-sm">
+            View All
+          </a>
+        </Link>
       </div>
     </BasePage>
   );

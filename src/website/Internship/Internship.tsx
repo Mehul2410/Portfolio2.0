@@ -60,9 +60,9 @@ export const Internship = (props: Props) => {
                   <p>{item.time}</p>
                   <p>Role : {item.type}</p>
                 </div>
-                <button className="w-max self-start text-base bg-dark hover:bg-opacity-20 hover:bg-light text-light px-7 py-4 border-2 border-light hover:shadow-light hover:shadow-sm">
+                {/* <button className="w-max self-start text-base bg-dark hover:bg-opacity-20 hover:bg-light text-light px-7 py-4 border-2 border-light hover:shadow-light hover:shadow-sm">
                   Know more
-                </button>
+                </button> */}
               </div>
             );
           })}
