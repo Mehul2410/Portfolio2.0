@@ -7,6 +7,7 @@
     font-family: "MonumentExtended Regular";
     font-style: normal;
     font-weight: 100 900;
+    font-size: 100%;
     /* font-display: swap; */
     src: url("/fonts/MonumentExtended-Regular.woff2") format("woff2");
   }
@@ -19,7 +20,6 @@
     src: url("/fonts/MonumentExtended-Ultrabold.woff2") format("woff2");
   }
   h1,
-  h2,
   h3,
   h4,
   h5,
@@ -27,7 +27,7 @@
     font-family: "MonumentExtended Ultrabold";
     text-transform: uppercase;
   }
-
+  h2,
   p,
   a,
   ul,

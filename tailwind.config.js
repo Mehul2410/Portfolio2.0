@@ -25,6 +25,9 @@ module.exports = {
       bg: "#3B3D60",
     },
     extend: {
+      borderRadius: {
+        photo: "60px 120px 60px 120px",
+      },
       keyframes: {
         bounce: {
           "0%, 100%": {

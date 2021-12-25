@@ -21,6 +21,7 @@ export const Heading = ({
       style={{
         color: color ? color : "#101124",
         textTransform: "uppercase",
+        fontFamily: "MonumentExtended Ultrabold",
         WebkitTextStrokeWidth: "1px",
         WebkitTextStrokeColor: color === "#101124" ? "#EEEEEE" : "#101124",
       }}

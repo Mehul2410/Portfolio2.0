@@ -14,7 +14,7 @@ function Nav({}: Props): ReactElement {
     {
       id: 1,
       page: "About",
-      route: "#about",
+      route: "/about",
     },
     {
       id: 2,

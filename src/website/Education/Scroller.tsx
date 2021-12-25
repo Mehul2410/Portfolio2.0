@@ -1,9 +1,8 @@
 import * as React from "react";
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { wrap } from "popmotion";
 import { images } from "./image-data";
-import Image from "next/image";
 
 const variants = {
   enter: (direction: number) => {
@@ -31,7 +30,11 @@ const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity;
 };
 
-export const Scroller = () => {
+interface scrollerProps {
+  color?: string;
+}
+
+export const Scroller = ({ color }: scrollerProps) => {
   const [[page, direction], setPage] = useState([0, 0]);
   const styles: any = {
     top: "calc(50% - 20px)",
@@ -60,57 +63,55 @@ export const Scroller = () => {
   };
 
   return (
-    <>
-      <AnimatePresence initial={false} custom={direction}>
-        <motion.div
-          key={page}
-          className="w-full absolute justify-center items-center flex flex-col h-full text-light  space-y-4 text-center"
-          custom={direction}
-          variants={variants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
-            opacity: { duration: 0.2 },
-          }}
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={1}
-          onDragEnd={(e, { offset, velocity }) => {
-            const swipe = swipePower(offset.x, velocity.x);
+    <div className="flex flex-col w-full h-full">
+      <motion.div
+        key={page}
+        className="w-full justify-center items-center flex flex-col max-h-max text-light text-center flex-wrap p-10 space-y-4"
+        custom={direction}
+        variants={variants}
+        initial="enter"
+        animate="center"
+        exit="exit"
+        transition={{
+          x: { type: "spring", stiffness: 300, damping: 30 },
+          opacity: { duration: 0.2 },
+        }}
+        drag="x"
+        dragConstraints={{ left: 0, right: 0 }}
+        dragElastic={1}
+        onDragEnd={(e, { offset, velocity }) => {
+          const swipe = swipePower(offset.x, velocity.x);
 
-            if (swipe < -swipeConfidenceThreshold) {
-              paginate(1);
-            } else if (swipe > swipeConfidenceThreshold) {
-              paginate(-1);
-            }
-          }}
-        >
-          <img
-            alt={images[imageIndex].name}
-            src={images[imageIndex].img}
-            className="object-contain max-w-uum w-full h-auto"
-          />
-          <p>{images[imageIndex].name}</p>
-          <p>{images[imageIndex].year}</p>
-          <p>{images[imageIndex].marks}</p>
-        </motion.div>
-      </AnimatePresence>
+          if (swipe < -swipeConfidenceThreshold) {
+            paginate(1);
+          } else if (swipe > swipeConfidenceThreshold) {
+            paginate(-1);
+          }
+        }}
+      >
+        <img
+          alt={images[imageIndex].name}
+          src={images[imageIndex].img}
+          className="object-contain max-w-uum w-full h-auto"
+        />
+        <p className={color}>{images[imageIndex].name}</p>
+        <p className={color}>{images[imageIndex].year}</p>
+        <p className={color}>{images[imageIndex].marks}</p>
+      </motion.div>
       <div
-        className="right-3 text-2xl text-light "
+        className={`right-3 text-2xl ${color} `}
         style={styles}
         onClick={() => paginate(1)}
       >
         {">"}
       </div>
       <div
-        className="left-3 text-2xl text-light"
+        className={`left-3 text-2xl ${color} `}
         style={styles}
         onClick={() => paginate(-1)}
       >
         {"<"}
       </div>
-    </>
+    </div>
   );
 };

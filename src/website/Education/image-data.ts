@@ -1,9 +1,9 @@
 export const images = [
   {
-    name: "St Joseph's High School kalamboli",
-    img: "/img/joseph.png",
-    year: "2015-2016",
-    marks: "SSC - 80.80 %",
+    name: "Pillai HOC College Of Engineering And Technology",
+    img: "/img/pillai.png",
+    year: "2018-present",
+    marks: "Pursuing (Information technology) - 8.1 pointer",
   },
   {
     name: "KLE College of Science and commerce",
@@ -12,10 +12,10 @@ export const images = [
     marks: "HSC (IT) - 72.15 %",
   },
   {
-    name: "Pillai HOC College Of Engineering And Technology",
-    img: "/img/pillai.png",
-    year: "2018-present",
-    marks: "Pursuing (Information technology) - 8.1 pointer",
+    name: "St Joseph's High School kalamboli",
+    img: "/img/joseph.png",
+    year: "2015-2016",
+    marks: "SSC - 80.80 %",
   },
 ];
 
