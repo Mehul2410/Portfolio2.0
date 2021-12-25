@@ -17,8 +17,8 @@ export const Education = (props: Props) => {
         ></Heading>
       }
     >
-      <div className="bg-dark w-full h-full rounded-3xl flex flex-wrap my-6 relative overflow-hidden">
-        <Scroller />
+      <div className="bg-dark w-full h-full min-h-edu rounded-3xl flex flex-wrap my-6 relative overflow-hidden">
+        <Scroller color="text-light" />
       </div>
     </BasePage>
   );

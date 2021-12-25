@@ -63,7 +63,7 @@ export const Scroller = ({ color }: scrollerProps) => {
   };
 
   return (
-    <div className="flex flex-col w-full h-full">
+    <div className="flex flex-col w-full h-full m-auto">
       <motion.div
         key={page}
         className="w-full justify-center items-center flex flex-col max-h-max text-light text-center flex-wrap p-10 space-y-4"

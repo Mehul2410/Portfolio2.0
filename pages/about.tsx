@@ -26,11 +26,11 @@ const Home: NextPage = () => {
                 Currently pursuing a bachelor's degree in the 4th year of IT
                 engineering
               </p>
-              <p className="text-xl"> I like to brainstorm new ideas!</p>
+              <p className="text-xl">I like to brainstorm new ideas!</p>
               <p className="text-xl">
                 Apart from that, I am a Change Marker, futurist ,Problem solver,
-                and tech enthusiast. Feel free to share your thoughts, I am all
-                ears. I will try to help in every way possible.
+                and tech enthusiast. Feel free to share your thoughts. I will
+                try to help in every way possible.
               </p>
             </div>
             <div className="max-w-2xl text-light space-y-8">
@@ -47,13 +47,13 @@ const Home: NextPage = () => {
               </p>
             </div>
             <h1 className="text-4xl text-light">Education</h1>
-            <div className="bg-light w-full h-full rounded-3xl flex flex-wrap my-6 relative overflow-hidden scale-90">
+            <div className="bg-light w-full h-full rounded-3xl min-h-edu flex flex-wrap my-6 relative overflow-hidden scale-90">
               <Scroller color="text-dark" />
             </div>
             <div className="flex flex-col max-w-2xl space-y-10">
               <h1 className="text-4xl text-light">Currently Working on:</h1>
               <Link href="/project/beSafe">
-                <a className="flex flex-wrap space-x-5 bg-light rounded-3xl p-5">
+                <a className="flex flex-wrap justify-center space-x-5 bg-light rounded-3xl p-5">
                   <img
                     src="/img/beSafe.png"
                     alt="BeSafe"
