@@ -8,7 +8,10 @@ const Projects: NextPage = ({ company }: any) => {
   console.log(company);
   return (
     <div>
-      <BaseLayout>
+      <BaseLayout
+        title="Projects"
+        description="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
+      >
         <BasePage background="bg-dark" className="pt-20">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-light text-4xl">Projects Worked on</h1>

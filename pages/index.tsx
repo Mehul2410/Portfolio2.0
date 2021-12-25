@@ -10,7 +10,10 @@ import { WorkExperience } from "../src/website/WorkExperience/WorkExperience";
 const Home: NextPage = () => {
   return (
     <div>
-      <BaseLayout>
+      <BaseLayout
+        title="home"
+        description="I Create Neat and Interactive Websites.I like to brainstorm new ideas and contributing Social projects"
+      >
         <HeroSection />
         <About />
         <Education />

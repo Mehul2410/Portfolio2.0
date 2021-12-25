@@ -5,7 +5,10 @@ import BasePage from "../src/layout/BasePage";
 import { Scroller } from "../src/website/Education/Scroller";
 const About: NextPage = () => {
   return (
-    <BaseLayout>
+    <BaseLayout
+      title="About"
+      description=" A Developer, and Designer from Mumbai. I Design things and solve problems."
+    >
       <BasePage background="bg-dark" className="py-20">
         <div className="flex flex-wrap relative">
           <div className="m-auto my-0 sticky top-32 2xl:relative 2xl:top-0 2xl:mb-10">

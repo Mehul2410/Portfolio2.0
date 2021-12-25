@@ -7,8 +7,8 @@ const Contact: NextPage = ({ data }: any) => {
   const { content } = data.fields.details;
   return (
     <BaseLayout
-    //   title="Yoga and Fitness Blogs for Women"
-    //   description={data.fields.name}
+      title={data.fields.name}
+      description={`Personal Project ${data.fields.name}`}
     >
       <BasePage className="py-10">
         <div className="space-y-10">
