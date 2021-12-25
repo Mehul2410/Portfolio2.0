@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Link from "next/link";
 import BaseLayout from "../src/layout/BaseLayout";
 import BasePage from "../src/layout/BasePage";
 import { Scroller } from "../src/website/Education/Scroller";
@@ -52,18 +53,20 @@ const Home: NextPage = () => {
               </div>
               <div className="flex flex-col max-w-2xl space-y-10">
                 <h1 className="text-4xl text-light">Currently Working on:</h1>
-                <div className="flex flex-wrap space-x-5 bg-light rounded-3xl p-5">
-                  <img
-                    src="/img/beSafe.png"
-                    alt="BeSafe"
-                    className=" w-52 object-cover rounded-3xl h-5w-52 m-auto"
-                  />
-                  <h2 className="text-xl self-center max-w-sm m-auto sm:mt-6">
-                    The project aims to develop a mobile app for citizens and
-                    police for crime record management. It can be accessed by
-                    both citizens and police easily.
-                  </h2>
-                </div>
+                <Link href="/beSafe">
+                  <a className="flex flex-wrap space-x-5 bg-light rounded-3xl p-5">
+                    <img
+                      src="/img/beSafe.png"
+                      alt="BeSafe"
+                      className=" w-52 object-cover rounded-3xl h-5w-52 m-auto"
+                    />
+                    <h2 className="text-xl self-center max-w-sm m-auto sm:mt-6">
+                      The project aims to develop a mobile app for citizens and
+                      police for crime record management. It can be accessed by
+                      both citizens and police easily.
+                    </h2>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>
