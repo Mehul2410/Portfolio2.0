@@ -43,7 +43,11 @@ export const WorkExperience = (props: Props) => {
       }
     >
       <div className="flex flex-wrap bg-dark w-full rounded-3xl my-10">
-        <Enroot />
+        <Link href="https://enrootmumbai.in/">
+          <a target="_blank" rel="noopener noreferrer">
+            <Enroot />
+          </a>
+        </Link>
         <div className=" m-auto">
           <p className="para-light text-center">Volunteer</p>
           <p className="para-light">October 2020 - present </p>
@@ -62,7 +66,7 @@ export const WorkExperience = (props: Props) => {
             <div className="flex flex-wrap-reverse w-full" key={item.id}>
               <div className="m-auto">
                 <Link href={item.url}>
-                  <a>
+                  <a target="_blank" rel="noopener noreferrer">
                     <Image
                       src={item.src}
                       alt={item.name}

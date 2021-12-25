@@ -36,7 +36,11 @@ const Projects: NextPage = ({ company }: any) => {
                 {data.fields.projects.map((obj: any, index: number) => {
                   return (
                     <Link href={obj.fields.description} key={index}>
-                      <a className="hover:scale-105 m-5 transition-all">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:scale-105 m-5 transition-all"
+                      >
                         <img
                           src={obj.fields.file.url}
                           alt={obj.fields.title}

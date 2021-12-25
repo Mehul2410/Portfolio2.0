@@ -56,7 +56,11 @@ const About: NextPage = () => {
             <div className="flex flex-col max-w-2xl space-y-10">
               <h1 className="text-4xl text-light">Currently Working on:</h1>
               <Link href="/project/beSafe">
-                <a className="flex flex-wrap justify-center space-x-5 bg-light rounded-3xl p-5">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex flex-wrap justify-center space-x-5 bg-light rounded-3xl p-5"
+                >
                   <img
                     src="/img/beSafe.png"
                     alt="BeSafe"
