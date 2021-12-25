@@ -12,7 +12,7 @@ const Home: NextPage = () => {
             <div className="m-auto my-0 sticky top-32 xl:relative xl:top-0 xl:mb-10">
               <img
                 src="/img/mehul.jpg"
-                alt=""
+                alt="mehul gawhale's image"
                 className="rounded-photo max-w-xl w-full object-cover sticky top-20"
               />
             </div>
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
               </div>
               <div className="flex flex-col max-w-2xl space-y-10">
                 <h1 className="text-4xl text-light">Currently Working on:</h1>
-                <Link href="/beSafe">
+                <Link href="/project/beSafe">
                   <a className="flex flex-wrap space-x-5 bg-light rounded-3xl p-5">
                     <img
                       src="/img/beSafe.png"

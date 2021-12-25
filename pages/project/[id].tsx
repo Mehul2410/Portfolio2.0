@@ -1,7 +1,7 @@
 import { createClient } from "contentful";
 import type { GetServerSideProps, NextPage } from "next";
-import BaseLayout from "../src/layout/BaseLayout";
-import BasePage from "../src/layout/BasePage";
+import BaseLayout from "../../src/layout/BaseLayout";
+import BasePage from "../../src/layout/BasePage";
 
 const Contact: NextPage = ({ data }: any) => {
   const { content } = data.fields.details;
