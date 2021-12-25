@@ -24,7 +24,7 @@ const Home: NextPage = () => {
               </h2>
               <p className="text-xl">
                 Currently pursuing a bachelor's degree in the 4th year of IT
-                engineering.s
+                engineering
               </p>
               <p className="text-xl"> I like to brainstorm new ideas!</p>
               <p className="text-xl">
