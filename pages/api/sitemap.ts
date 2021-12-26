@@ -9,6 +9,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     { url: "/", changefreq: "daily", priority: 0.3 },
     { url: "/about", changefreq: "daily", priority: 0.3 },
     { url: "/project/beSafe", changefreq: "daily", priority: 0.3 },
+    { url: "/projects", changefreq: "daily", priority: 0.3 },
   ];
 
   // Create a stream to write to
