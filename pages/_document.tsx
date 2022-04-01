@@ -23,7 +23,6 @@ class MyDocument extends Document {
 						}}
 					/>
 					<script
-						type='text/javascript'
 						dangerouslySetInnerHTML={{
 							__html: `      
                    (function(c,l,a,r,i,t,y){
